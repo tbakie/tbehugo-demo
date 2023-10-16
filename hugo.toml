@@ -1,4 +1,36 @@
 baseURL = 'https://tbakie.github.io/tbehugo-demo/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'TBE Hugo Website'
 theme = 'terminal'
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "green"
+  showMenuItems = 5
+  fullWidthTheme = false
+  centerTheme = false
+
+  [languages]
+  [languages.en]
+    title = "Terminal"
+    subtitle = "A simple, retro theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Terminal"
+      logoHomeLink = "http://localhost:1313/tbehugo-demo/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
