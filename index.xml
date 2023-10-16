@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://tbakie.github.io/tbehugo-demo/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Oct 2023 10:02:01 -0700</lastBuildDate><atom:link href="https://tbakie.github.io/tbehugo-demo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://tbakie.github.io/tbehugo-demo/docs/test/</link>
+      <pubDate>Mon, 16 Oct 2023 10:02:01 -0700</pubDate>
+      
+      <guid>https://tbakie.github.io/tbehugo-demo/docs/test/</guid>
+      <description>This is a test page This is a test page</description>
+      <content>&lt;h3 id=&#34;this-is-a-test-page&#34;&gt;This is a test page&lt;/h3&gt;
+&lt;p&gt;This is a test page&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
