@@ -1,0 +1,4 @@
+baseURL = 'https://tbakie.github.io/tbehugo-demo/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'terminal'
