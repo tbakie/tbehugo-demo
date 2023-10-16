@@ -10,7 +10,7 @@ description = "These are the recent news in my life"
 showFullContent = false
 readingTime = false
 hideComments = false
-color = "blue" 
+color = "orange" 
 +++
 
 ## Uploading...
