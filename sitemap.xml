@@ -2,7 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tbakie.github.io/tbehugo-demo/about/</loc>
+    <lastmod>2023-10-16T11:02:08-07:00</lastmod>
+  </url><url>
+    <loc>https://tbakie.github.io/tbehugo-demo/hobbies/</loc>
+    <lastmod>2023-10-16T11:02:08-07:00</lastmod>
+  </url><url>
+    <loc>https://tbakie.github.io/tbehugo-demo/hyperlinks/</loc>
+    <lastmod>2023-10-16T11:02:08-07:00</lastmod>
+  </url><url>
+    <loc>https://tbakie.github.io/tbehugo-demo/news-list/</loc>
+    <lastmod>2023-10-16T11:02:08-07:00</lastmod>
+  </url><url>
     <loc>https://tbakie.github.io/tbehugo-demo/posts/</loc>
+    <lastmod>2023-10-16T11:02:08-07:00</lastmod>
+  </url><url>
+    <loc>https://tbakie.github.io/tbehugo-demo/showcase/</loc>
     <lastmod>2023-10-16T11:02:08-07:00</lastmod>
   </url><url>
     <loc>https://tbakie.github.io/tbehugo-demo/</loc>
