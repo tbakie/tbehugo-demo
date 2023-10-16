@@ -6,10 +6,12 @@ paginate = 5
 
 [params]
   contentTypeName = "posts"
-  themeColor = "green"
+  themeColor = "pink"
   showMenuItems = 5
   fullWidthTheme = false
   centerTheme = false
+  
+
 
   [languages]
   [languages.en]
@@ -22,7 +24,7 @@ paginate = 5
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "Home"
       logoHomeLink = "http://localhost:1313/tbehugo-demo/"
 
     [languages.en.menu]
@@ -34,3 +36,16 @@ paginate = 5
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+      [[languages.en.menu.main]]
+        identifier = "hobbies"
+        name = "Hobbies"
+        url = "/hobbies"
+      [[languages.en.menu.main]]
+        identifier = "news-List"
+        name = "News list"
+        url = "/news-list"
+      [[languages.en.menu.main]]
+        identifier = "hyperlinks"
+        name = "HyperLinks"
+        url = "/hyperlinks"
+        
