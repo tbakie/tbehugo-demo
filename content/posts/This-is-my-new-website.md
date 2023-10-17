@@ -1,8 +1,8 @@
 +++
-title = "This Is My New Website"
+title = "Greetings! This is my new website"
 date = "2023-10-16T11:02:08-07:00"
 author = " Efesoy "
-authorTwitter = "" #do not include @
+authorTwitter = "" 
 cover = ""
 tags = ["", ""]
 keywords = ["", ""]
@@ -13,10 +13,15 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 
-# Hello World!
-
-```javascript
-console.log('Hello World!');
+## In this website you can see my projects, news, social media accounts and little bit about myself :D
+## Click read more button to see this message in java code
+## --------------------------------------------------------->>
+```java
+public class Introduction {
+    public static void main (String[] args){
+        System.out.println("In this website you can see my projects, news, social media accounts and little bit about myself :D");
+  }
+}
 ```
 
 

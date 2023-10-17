@@ -12,7 +12,7 @@ readingTime = false
 hideComments = false
 color = "red" 
 +++
-
+# In this assessment, I have built a TODO list manager. Productivity tools like TODO lists are becoming increasingly popular and with File I/O and ArrayLists you will be able to build one (and implement one or more features of your choosing!). My TODO list manager will allow a user to add items to a TODO list, mark TODOs as completed and save and load TODOs to and from a file.
 ```java
 import java.util.*;
 import java.io.*;
@@ -178,6 +178,227 @@ public class TodoListManager {
                 System.out.println("  " + (i + 1) + ": " + todosCompleted.get(i));
             }
         }
+    }
+}
+  
+```
+
+## The program begins by printing a short introduction. Then, the program prompts for a patient's name, followed by the patient information that will be used to compute the priority score (see below). The program uses this information to compute a score and determine the patient's priority. This information is printed out, along with a brief recommendation based on the priority. The program then prints a thank you message and prompts for another patient name. This process continues until the word quit is typed as the name, at which point summary statistics for the day are printed
+
+```java
+import java.util.*;
+public class PatientPrioritizer {
+    public static final int HOSPITAL_ZIP = 12345;
+
+    public static void main (String[] args){
+        Scanner console = new Scanner(System.in);
+        int numPatients = 0;
+        int highestPriorityScore = 0;
+        
+        introduction();
+        String name = getName(console);
+        while (!name.equals("quit")) {
+            numPatients++;
+            int score = getPatientScore(console);
+            System.out.println();   
+            printPatientPriority(name, score);   
+            closing();
+            if (score > highestPriorityScore) {
+                highestPriorityScore = score;
+            }
+            name = getName(console);
+        }    
+        printOverallStatistics(numPatients, highestPriorityScore);   
+        
+    }
+    
+    // this method just prints out introduction statements
+    public static void introduction() {
+        System.out.println("Hello! We value you and your time, so we will help");
+        System.out.println("you prioritize which patients to see next!");
+        System.out.println("Please answer the following questions about the next patient so");
+        System.out.println("we can help you do your best work :)");
+        System.out.println();  
+    }
+    
+    // this method gets patient' name
+    // parameters:
+    // - Scanner console: it's input that we can write somethings
+    // returns:
+    // - String: patient's name
+    public static String getName(Scanner console){
+        System.out.println("Please enter the next patient's name or \"quit\" to end the program.");
+        System.out.print("Patient's name: ");
+        return console.next();
+    }
+
+    // this methods get patient's all other informartion
+    // also this methods has five other methods
+    // parameters:
+    // - Scanner console: it's input that we can write somethings
+    // returns: 
+    //- int: calculated priority score 
+    public static int getPatientScore(Scanner console) {
+        int age = getPatientAge(console);
+        int zipCode = getPatientZipCode(console);
+        boolean inNetwork = isHospitalInNetwork(console);
+        int painLevel = getPatientPainLevel(console);
+        double temperature = getPatientTemperature(console);
+
+        return calculatePriorityScore(age, zipCode, inNetwork, painLevel, temperature);
+    }
+
+    // this method calculates patient priority score
+    // age (int), zipCode (int), inNetwork (boolean), painLevel (int) and temperature (double).
+    // then it returns score (int)
+    public static int calculatePriorityScore(int age, int zipCode, boolean inNetwork,
+            int painLevel, double temperature){        
+        int score = 100;
+        if (age < 12 || age >= 75) {
+            score += 50;
+        }
+        
+        int firstDigit = zipCode / 10000;
+        int secondDigit = (zipCode / 1000) % 10;
+
+        if (firstDigit == HOSPITAL_ZIP / 10000) {
+            score += 25;
+            if (secondDigit == (HOSPITAL_ZIP / 1000) % 10) {
+                score += 15;
+            }
+        }
+
+        if (inNetwork) {
+            score += 50;
+        }
+
+        score += painLevel * 10;
+
+        if (temperature > 99.5) {
+            score += 8;
+        }
+
+        return score;
+    }
+
+    //  this method gets patient' age
+    // parameters:
+    // - Scanner console: it's input that we can write somethings
+    // returns:
+    // - int: patient's age
+    public static int getPatientAge(Scanner console) {
+        System.out.print("Patient age: ");
+        return console.nextInt();
+    }
+
+    // this method gets patient' zipCode
+    // parameters:
+    // - Scanner console: it's input that we can write somethings
+    // returns:
+    // - int: patient's zipCode
+    public static int getPatientZipCode(Scanner console) {
+        System.out.print("Patient zip code: ");
+        int zipCode = console.nextInt();
+        while (!fiveDigits(zipCode)) {
+            System.out.print("Invalid zip code, enter valid zip code: ");
+            zipCode = console.nextInt();  
+        }
+        return zipCode;  
+    }
+
+    // this method gets patient' inNetwork
+    // parameters:
+    // - Scanner console: it's input that we can write somethings
+    // returns:
+    // - boolean: patient's inNetwork
+    public static boolean isHospitalInNetwork(Scanner console) {
+        System.out.print("Is our hospital \"in network\" for the patient's insurance? ");
+        String response = console.next();
+        return response.equals("y") || response.equals("yes");
+    }
+
+    // this method gets patient' painLevel
+    // parameters:
+    // - Scanner console: it's input that we can write somethings
+    // returns:
+    // - int: patient's painLevel
+    public static int getPatientPainLevel(Scanner input) {
+        System.out.print("Patient pain level (1-10): ");
+        int painLevel = input.nextInt();
+        while (painLevel < 1 || painLevel > 10) {
+            System.out.print("Invalid pain level, enter valid pain level (1-10): ");
+            painLevel = input.nextInt();
+        }
+        return painLevel;
+    }
+
+    // this method gets patient' temperature
+    // parameters:
+    // - Scanner console: it's input that we can write somethings
+    // returns:
+    // - double: patient's temperature
+    public static double getPatientTemperature(Scanner console) {
+        System.out.print("Patient temperature (in degrees Fahrenheit): ");
+        return console.nextDouble();
+    }
+
+    // this method gets patient' priority
+    // parameters:
+    // - String name: name of the patient
+    // - int score: calculated score of patient
+    public static void printPatientPriority(String name, int score) {
+        System.out.println("We have found patient "+ name +" to have a priority score of: "+score);
+        System.out.print("We have determined this patient is ");
+        if (score >= 333) {
+            System.out.println("high priority,");
+            System.out.println("and it is advised to call an appropriate medical provider ASAP.");
+            System.out.println();
+        } else if (score >= 168) {
+            System.out.println("medium priority.");
+            System.out.println("Please assign an appropriate medical provider to their case");
+            System.out.println("and check back in with the patient's "
+                    + "condition in a little while.");
+            System.out.println();
+        } else {
+            System.out.println("low priority.");
+            System.out.println("Please put them on the waitlist for when a "
+                    + "medical provider becomes available.");
+            System.out.println();
+        }
+    }
+
+    // this method just print out closing statements
+    public static void closing(){
+        System.out.println("Thank you for using our system!");
+        System.out.println("We hope we have helped you do your best!");
+        System.out.println();
+    }
+
+    // this method implements at the end overall Statistics of patients 
+    // parameters:
+    // - numPatients: how many people use this system
+    // - highestPriorityScore: the highest score people got
+    public static void printOverallStatistics(int numPatients, int highestPriorityScore) {
+        System.out.println("Statistics for the day:");
+        System.out.println("..." + numPatients + " patients were helped");
+        System.out.print("...the highest priority patient we saw had a score of " );
+        System.out.println(highestPriorityScore);
+        System.out.println("Good job today!");       
+    }
+
+    // Takes in an integer input.
+    // Returns true if the integer has 5 digits, and false otherwise.
+    public static boolean fiveDigits(int val) {
+        val = val / 10000; // get first digit
+        if (val == 0) { // has less than 5 digits
+            return false;
+        } else if (val / 10 == 0) { // has 5 digits
+            return true;
+        } else { // has more than 5 digits
+            return false; 
+        }
+        // NOTE: the above can be written with improved "boolean zen" as follows: 
+        // return val != 0 && val / 10 == 0;
     }
 }
 ```
