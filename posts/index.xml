@@ -8,25 +8,37 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Oct 2023 11:02:08 -0700</lastBuildDate><atom:link href="https://tbakie.github.io/tbehugo-demo/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>This Is My New Website</title>
+      <title>Greetings! This is my new website</title>
       <link>https://tbakie.github.io/tbehugo-demo/posts/this-is-my-new-website/</link>
       <pubDate>Mon, 16 Oct 2023 11:02:08 -0700</pubDate>
       
       <guid>https://tbakie.github.io/tbehugo-demo/posts/this-is-my-new-website/</guid>
-      <description>Hello World! console.log(&amp;#39;Hello World!&amp;#39;); </description>
-      <content>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h1&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Hello World!&amp;#39;&lt;/span&gt;);
+      <description>In this website you can see my projects, news, social media accounts and little bit about myself :D Click read more button to see this message in java code &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;raquo; public class Introduction { public static void main (String[] args){ System.out.println(&amp;#34;In this website you can see my projects, news, social media accounts and little bit about myself :D&amp;#34;); } } </description>
+      <content>&lt;h2 id=&#34;in-this-website-you-can-see-my-projects-news-social-media-accounts-and-little-bit-about-myself-d&#34;&gt;In this website you can see my projects, news, social media accounts and little bit about myself :D&lt;/h2&gt;
+&lt;h2 id=&#34;click-read-more-button-to-see-this-message-in-java-code&#34;&gt;Click read more button to see this message in java code&lt;/h2&gt;
+&lt;h2 id=&#34;---------------------------------------------------------&#34;&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;raquo;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Introduction&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args&lt;span style=&#34;color:#f92672&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        System&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;In this website you can see my projects, news, social media accounts and little bit about myself :D&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
     </item>
     
     <item>
-      <title>Images</title>
+      <title>Social Media</title>
       <link>https://tbakie.github.io/tbehugo-demo/posts/second/</link>
       <pubDate>Sun, 16 Oct 2022 11:02:08 -0700</pubDate>
       
       <guid>https://tbakie.github.io/tbehugo-demo/posts/second/</guid>
-      <description></description>
-      <content></content>
+      <description>Please click read more to access my social media accounts https://github.com/tbakie
+https://www.linkedin.com/in/tugrul-efesoy/
+https://www.instagram.com/baki__efe/</description>
+      <content>&lt;h2 id=&#34;please-click-read-more-to-access-my-social-media-accounts&#34;&gt;Please click read more to access my social media accounts&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/tbakie&#34;&gt;https://github.com/tbakie&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/tugrul-efesoy/&#34;&gt;https://www.linkedin.com/in/tugrul-efesoy/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.instagram.com/baki__efe/&#34;&gt;https://www.instagram.com/baki__efe/&lt;/a&gt;&lt;/p&gt;
+</content>
     </item>
     
   </channel>
