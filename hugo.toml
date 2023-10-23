@@ -9,7 +9,7 @@ paginate = 5
   themeColor = "pink"
   showMenuItems = 5
   fullWidthTheme = false
-  centerTheme = false
+  centerTheme = true
   
 
 
