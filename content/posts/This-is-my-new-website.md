@@ -1,7 +1,7 @@
 +++
 title = "Greetings! This is my new website"
 date = "2023-10-16T11:02:08-07:00"
-author = " EFESOY "
+author = " Efesoy"
 authorTwitter = "" 
 cover = ""
 tags = ["", ""]
