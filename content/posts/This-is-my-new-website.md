@@ -11,6 +11,7 @@ showFullContent = false
 readingTime = false
 hideComments = false
 color = "" #color from the theme settings
+
 +++
 
 ## In this website you can see my projects, news, social media accounts and little bit about myself :D
