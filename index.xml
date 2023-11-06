@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Home</title>
+    <title>Home</title>
     <link>https://tbakie.github.io/tbehugo-demo/</link>
-    <description>Recent content in About on Home</description>
+    <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Oct 2023 11:02:08 -0700</lastBuildDate><atom:link href="https://tbakie.github.io/tbehugo-demo/index.xml" rel="self" type="application/rss+xml" />
@@ -59,6 +59,16 @@
 &lt;h1 id=&#34;httpswwwlinkedincomintugrul-efesoy&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/in/tugrul-efesoy/&#34;&gt;https://www.linkedin.com/in/tugrul-efesoy/&lt;/a&gt;&lt;/h1&gt;
 &lt;h1 id=&#34;httpswwwinstagramcombaki__efe&#34;&gt;&lt;a href=&#34;https://www.instagram.com/baki__efe/&#34;&gt;https://www.instagram.com/baki__efe/&lt;/a&gt;&lt;/h1&gt;
 </content>
+    </item>
+    
+    <item>
+      <title>My list</title>
+      <link>https://tbakie.github.io/tbehugo-demo/link-list/</link>
+      <pubDate>Mon, 16 Oct 2023 11:02:08 -0700</pubDate>
+      
+      <guid>https://tbakie.github.io/tbehugo-demo/link-list/</guid>
+      <description></description>
+      <content></content>
     </item>
     
     <item>
