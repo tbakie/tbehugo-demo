@@ -1,0 +1,24 @@
+{
+    "Name": "My Links",
+    "Description": "Mysterious but clickable",
+    "Image": "/img/brinco1.png",
+    "Socials": [
+        {
+            "Link": "https://instagram.com/Louisload",
+            "Icon": "/icon/instagram.svg",
+            "AltText": "Instagram"
+        },
+        {
+            "Link": "https://www.twitter.com/Louisload",
+            "Icon": "/icon/twitter.svg",
+            "AltText": "Twitter"
+        }
+    ],
+    "List": [
+        {
+            "Type": "text",
+            "Content": "Helloooo! and welcome to my personal web space ✨🌈  \nI'm happy to see you here.",
+            "HtmlClasses": "desktopOnly"
+        }
+    ]
+}
