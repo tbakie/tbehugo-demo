@@ -1,0 +1,48 @@
+{
+    "Name": "My Link List",
+    "Description": "Link List of Luís Arnaldo",
+    "Image": "../photo.jpg",
+    "Socials": [
+        {
+            "Link": "https://instagram.com/Louisload",
+            "Icon": "/icon/instagram.svg",
+            "AltText": "Instagram"
+        },
+        {
+            "Link": "https://www.twitter.com/Louisload",
+            "Icon": "/icon/twitter.svg",
+            "AltText": "Twitter"
+        }
+    ],
+    "List": [
+        {
+            "Type": "text",
+            "Content": "Helloooo! and welcome to my personal web space ✨🌈  \nI'm a dev who likes to write esoteric code, compose out-of-tempo music, produce weird films and draw petit pixel art monsters. 💾 🎹 🎞️ 👾",
+            "HtmlClasses": "anotherClassSoICanOverrideStyles"
+        },
+        {
+            "Type": "link",
+            "Link": "https://distrokid.com/hyperfollow/louisload/memrias-de-peixe-2",
+            "Icon": "/lt/memorias.jpg",
+            "AltText": "Memórias de Peixe",
+            "Content": "My latest album: Memórias de Peixe",
+            "OpenNewTab": true
+        },
+        {
+            "Type": "link",
+            "Link": "https://demising.faith",
+            "Icon": "/lt/demisingfaith.jpg",
+            "AltText": "Demising Faith",
+            "Content": "Demising Faith",
+            "OpenNewTab": true
+        },
+        {
+            "Type": "link",
+            "Link": "https://youtube.com/@louisload",
+            "Icon": "/icon/film.svg",
+            "AltText": "Film Reel",
+            "Content": "Weird films",
+            "OpenNewTab": true
+        }
+    ]
+}
